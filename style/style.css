@@ -1,5 +1,5 @@
 body {
-    font-size: 12px;
+    font-size: 14px;
     max-width: 750px;
     padding: 0px;
     border: 0px;
@@ -22,7 +22,6 @@ body {
     color: white;
 }
 
-
 .section-description-1 {
     max-width: 750px;
 }
@@ -39,8 +38,40 @@ body {
     border-style: solid;
     border-width: 1px;
     border-color: gray;
+    color: #414141;
 }
 
 .main-list {
     padding-bottom: 5px;
+}
+
+.table-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.table-label {
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    color: black;    
+}
+
+.table-content {
+    text-align: center;
+    border-style: solid;
+    border-width: 1px;
+    border-color: gray;
+    color: black;    
+}
+
+.menu-bar {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu-selection {
+    padding-right: 10px;  
 }
